@@ -1,0 +1,131 @@
+
+
+*************************************************************
+
+   NEOS Server Version 6.0
+   Job#     : 18083624
+   Password : DoWUXqLn
+   User     :
+   Solver   : lp:Gurobi:MPS
+   Start    : 2025-12-03 09:46:16
+   End      : 2025-12-03 09:46:28
+   Host     : prod-sub-1.neos-server.org
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information for any particular purpose.
+
+   Announcements:
+*************************************************************
+Set parameter TokenServer to value "opt-license.discovery.wisc.edu"
+Read MPS format model from file model.mps
+Reading time = 0.01 seconds
+: 6048 rows, 7380 columns, 26112 nonzeros
+
+
+Checking threads settings... (NEOS allows a maximum of 4 threads)
+Set parameter Threads to value 4
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (linux64 - "Rocky Linux 8.10 (Green Obsidian)")
+
+CPU model: Intel(R) Xeon(R) CPU E5-2430 0 @ 2.20GHz, instruction set [SSE2|AVX]
+Thread count: 12 physical cores, 24 logical processors, using up to 4 threads
+
+Non-default parameters:
+Threads  4
+
+Optimize a model with 6048 rows, 7380 columns and 26112 nonzeros
+Model fingerprint: 0xbeaf1aed
+Variable types: 5436 continuous, 1944 integer (1944 binary)
+Coefficient statistics:
+  Matrix range     [2e-01, 4e+00]
+  Objective range  [1e-02, 6e+04]
+  Bounds range     [5e-01, 8e+00]
+  RHS range        [6e-02, 4e+01]
+Presolve removed 1436 rows and 796 columns
+Presolve time: 0.27s
+Presolved: 4612 rows, 6584 columns, 23418 nonzeros
+Variable types: 5023 continuous, 1561 integer (1561 binary)
+
+Root relaxation: objective 2.981453e+05, 5150 iterations, 0.25 seconds (0.13 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 298145.290    0   42          - 298145.290      -     -    0s
+H    0     0                    375561.77723 298145.290  20.6%     -    0s
+H    0     0                    329713.94442 303416.030  7.98%     -    0s
+     0     0 303416.030    0   63 329713.944 303416.030  7.98%     -    0s
+     0     0 304572.167    0   81 329713.944 304572.167  7.63%     -    1s
+H    0     0                    328626.60308 304586.944  7.32%     -    1s
+     0     0 304586.944    0   81 328626.603 304586.944  7.32%     -    1s
+     0     0 304672.996    0   77 328626.603 304672.996  7.29%     -    1s
+     0     0 304689.339    0   84 328626.603 304689.339  7.28%     -    1s
+     0     0 304689.339    0   95 328626.603 304689.339  7.28%     -    1s
+     0     0 304830.712    0  109 328626.603 304830.712  7.24%     -    1s
+H    0     0                    328321.52426 304853.750  7.15%     -    1s
+     0     0 304853.750    0  120 328321.524 304853.750  7.15%     -    1s
+     0     0 304870.767    0  130 328321.524 304870.767  7.14%     -    1s
+     0     0 304949.102    0  134 328321.524 304949.102  7.12%     -    1s
+     0     0 304949.102    0  134 328321.524 304949.102  7.12%     -    1s
+     0     0 305318.168    0  146 328321.524 305318.168  7.01%     -    1s
+     0     0 305337.127    0  146 328321.524 305337.127  7.00%     -    1s
+     0     0 305910.818    0  153 328321.524 305910.818  6.83%     -    1s
+     0     0 305918.217    0  153 328321.524 305918.217  6.82%     -    1s
+     0     0 305918.217    0  153 328321.524 305918.217  6.82%     -    1s
+     0     0 306047.789    0  142 328321.524 306047.789  6.78%     -    2s
+     0     0 306126.237    0  157 328321.524 306126.237  6.76%     -    2s
+     0     0 306126.237    0  145 328321.524 306126.237  6.76%     -    2s
+     0     0 306885.389    0  165 328321.524 306885.389  6.53%     -    2s
+     0     0 306900.431    0  177 328321.524 306900.431  6.52%     -    2s
+     0     0 306900.522    0  188 328321.524 306900.522  6.52%     -    2s
+     0     0 307351.122    0  118 328321.524 307351.122  6.39%     -    2s
+     0     0 307394.396    0  123 328321.524 307394.396  6.37%     -    2s
+     0     0 307395.300    0  124 328321.524 307395.300  6.37%     -    2s
+     0     0 307494.428    0  114 328321.524 307494.428  6.34%     -    2s
+     0     0 307511.060    0  117 328321.524 307511.060  6.34%     -    2s
+     0     0 307515.079    0  119 328321.524 307515.079  6.34%     -    2s
+     0     0 307515.905    0  132 328321.524 307515.905  6.34%     -    2s
+     0     0 307802.283    0  144 328321.524 307802.283  6.25%     -    2s
+     0     0 307804.028    0  145 328321.524 307804.028  6.25%     -    2s
+     0     0 308126.305    0  116 328321.524 308126.305  6.15%     -    3s
+H    0     0                    325059.63907 308127.528  5.21%     -    3s
+     0     0 308127.528    0  143 325059.639 308127.528  5.21%     -    3s
+     0     0 308167.801    0  136 325059.639 308167.801  5.20%     -    3s
+     0     0 308183.469    0  141 325059.639 308183.469  5.19%     -    3s
+     0     0 308273.611    0  110 325059.639 308273.611  5.16%     -    3s
+     0     0 308288.544    0  127 325059.639 308288.544  5.16%     -    3s
+H    0     0                    320894.77001 308289.025  3.93%     -    3s
+     0     0 308289.025    0  132 320894.770 308289.025  3.93%     -    3s
+     0     0 308289.946    0  139 320894.770 308289.946  3.93%     -    3s
+H    0     0                    319305.20800 308289.946  3.45%     -    3s
+H    0     0                    319262.80491 308289.946  3.44%     -    3s
+     0     0 308290.431    0  139 319262.805 308290.431  3.44%     -    3s
+     0     0 308297.182    0  148 319262.805 308297.182  3.43%     -    3s
+     0     0 308316.241    0  145 319262.805 308316.241  3.43%     -    3s
+     0     2 308316.241    0  142 319262.805 308316.241  3.43%     -    3s
+H   34    27                    316654.28593 308745.788  2.50%   138    4s
+H   66    45                    316240.24124 309762.538  2.05%   124    4s
+   100    62 314955.990   18   25 316240.241 309762.538  2.05%   106    5s
+*  233    57              13    316166.19228 312959.649  1.01%  73.7    5s
+
+Cutting planes:
+  Lift-and-project: 1
+  Cover: 46
+  Implied bound: 90
+  MIR: 31
+  Flow cover: 54
+  Relax-and-lift: 6
+
+Explored 361 nodes (30463 simplex iterations) in 6.13 seconds (3.36 work units)
+Thread count was 4 (of 24 available processors)
+
+Solution count 10: 316166 316240 316654 ... 329714
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.161661922811e+05, best bound 3.161661922811e+05, gap 0.0000%
+
+
+NEOS Server Home

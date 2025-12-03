@@ -16,3 +16,10 @@ The Open Energy Benchmark is an open-source benchmark of optimization solvers on
 ## [NEOS Server](https://neos-server.org/neos/)
 
 NEOS Server is a free internet-based service that provides access to more than 60 state-of-the-art solvers across various optimization categories, hosted by the Wisconsin Institute for Discovery and running on distributed high-performance machines. 
+
+
+## [Fractal image](https://jsdw.me/js-fractal-explorer/)
+
+The fractal image was created using the JavaScript Fractal Explorer program, which was written by James Wilson.
+
+![Mandelbrot](./mandelbrot.png)

@@ -2,7 +2,7 @@
 
 1. Results for **Gurobi version 12.0.3** are listed in [here](./evaluation/v12.0.3/README.md).
 
-## [Gurobi](www.gurobi.com)
+## [Gurobi](https://www.gurobi.com)
 
 Gurobi is a commercial mathematical optimization solver that uses advanced algorithms to find optimal solutions to linear programming, mixed-integer programming, quadratic programming, and other optimization problems commonly found in operations research, logistics, finance, and engineering applications.
 
